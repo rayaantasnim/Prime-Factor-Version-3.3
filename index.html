@@ -1,0 +1,1481 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Prime-Factor.app V3.3 — Global Cloud & Firebase Protocol Launch
+    </title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel=stylesheet href="style.css">
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Prime-Factor.app V3.3 Global Cloud & Firebase Protocol Launch blueprint. Experience zero-guest strict ledger integrity, Google OAuth 2.0 authentication, and real-time Cloud Firestore synchronization."
+    />
+    <meta name="author" content="Rayaan Tasnim" />
+    <meta
+      name="keywords"
+      content="Prime Factorization, Competitive Math, Cloud Firestore, Firebase, Cyber Olympiad, Rayaan Tasnim"
+    />
+
+    <!-- Open Graph (OG) Meta Tags -->
+    <meta
+      property="og:title"
+      content="Prime-Factor.app V3.3 — Global Cloud & Firebase Protocol Launch"
+    />
+    <meta
+      property="og:description"
+      content="Transitioning the competitive integer factorization arena to a globally synchronized Firebase Cloud Firestore & Google OAuth 2.0 architecture."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://rayaantasnim.github.io/Prime-Factorization-Web/index.html"
+    />
+    <meta property="og:site_name" content="Prime-Factor.app" />
+
+    <!-- Google Fonts: Inter, Rajdhani, Fira Code -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Rajdhani:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwand.js"></script>
+    <!-- GSAP + ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://rayaantasnim.github.io/Prime-Factorization-Web/#website",
+            "url": "https://rayaantasnim.github.io/Prime-Factorization-Web/index.html",
+            "name": "Prime-Factor.app",
+            "description": "Global Cloud & Firebase Protocol Launch release blueprint for Prime-Factor.app V3.3. Featuring zero-guest strict ledger integrity, Google OAuth 2.0 authentication, and real-time Cloud Firestore synchronization.",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@type": "Person",
+              "@id": "https://rayaantasnim.github.io/Prime-Factorization-Web/#person",
+              "name": "Rayaan Tasnim",
+              "url": "https://github.com/rayaantasnim",
+              "jobTitle": "Lead Software Architect & Open Source Maintainer"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://rayaantasnim.github.io/Prime-Factorization-Web/#application",
+            "name": "Prime-Factor.app V3.3",
+            "operatingSystem": "All modern web browsers (Cross-Platform)",
+            "applicationCategory": "EducationalApplication",
+            "softwareVersion": "3.3.0",
+            "creator": {
+              "@id": "https://rayaantasnim.github.io/Prime-Factorization-Web/#person"
+            },
+            "description": "Competitive integer factorization web application featuring real-time ELO ladders, 12-tier competitive hierarchy, and cryptographically secure Firebase Cloud Firestore synchronization.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rayaantasnim.github.io/Prime-Factorization-Web/index.html#webpage",
+            "url": "https://rayaantasnim.github.io/Prime-Factorization-Web/index.html",
+            "name": "Prime-Factor.app V3.3 — Global Cloud & Firebase Protocol Launch",
+            "isPartOf": {
+              "@id": "https://rayaantasnim.github.io/Prime-Factorization-Web/#website"
+            },
+            "about": {
+              "@id": "https://rayaantasnim.github.io/Prime-Factorization-Web/#application"
+            },
+            "description": "Comprehensive release blueprint and deployment specification for Prime-Factor.app V3.3 Cloud Genesis transition."
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body
+    class="bg-cyber-grid font-sans antialiased selection:bg-cyberCyan selection:text-canvas"
+  >
+    <!-- Ambient Background Glow Orbs -->
+    <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+      <div
+        class="absolute -top-40 -left-40 w-96 h-96 bg-cyberCyan/10 rounded-full blur-[120px]"
+      ></div>
+      <div
+        class="absolute top-1/3 -right-40 w-[500px] h-[500px] bg-cyberPurple/10 rounded-full blur-[140px]"
+      ></div>
+      <div
+        class="absolute bottom-0 left-1/4 w-96 h-96 bg-cyberMint/10 rounded-full blur-[120px]"
+      ></div>
+    </div>
+
+    <!-- Top Navigation Bar -->
+    <header
+      class="fixed top-0 inset-x-0 z-40 glass-panel-dark border-b border-slate-800/80"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between"
+      >
+        <!-- Brand Identity -->
+        <a href="#hero" class="flex items-center gap-3 group">
+          <div
+            class="w-9 h-9 rounded-lg bg-gradient-to-br from-cyberCyan to-cyberPurple p-[1px] shadow-lg shadow-cyberCyan/20"
+          >
+            <div
+              class="w-full h-full bg-canvas rounded-[7px] flex items-center justify-center font-mono font-bold text-cyberCyan text-sm group-hover:text-white transition-colors"
+            >
+              P(n)
+            </div>
+          </div>
+          <div>
+            <span
+              class="font-display font-bold text-xl tracking-wider text-white"
+              >Prime-Factor<span class="text-cyberCyan">.APP</span></span
+            >
+            <span
+              class="ml-2 px-2 py-0.5 text-[10px] font-mono uppercase tracking-widest rounded bg-cyberCyan/15 text-cyberCyan border border-cyberCyan/30"
+              >V3.3 CLOUD</span
+            >
+          </div>
+        </a>
+
+        <!-- Right Actions: Status Pill + Hamburger Drawer Trigger -->
+        <div class="flex items-center gap-4">
+          <div
+            class="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-full bg-slateDark/90 border border-cyberMint/30 text-xs font-mono text-cyberMint"
+          >
+            <span class="w-2 h-2 rounded-full bg-cyberMint animate-ping"></span>
+            <span>FIREBASE PROTOCOL: STAGED</span>
+          </div>
+
+          <button
+            id="open-nav-btn"
+            aria-label="Open Navigation Drawer"
+            class="p-2.5 rounded-lg glass-panel hover:border-cyberCyan/60 text-slate-200 hover:text-cyberCyan transition-all flex items-center gap-2"
+          >
+            <span
+              class="hidden sm:inline font-mono text-xs uppercase tracking-wider"
+              >Blueprint Index</span
+            >
+            <svg
+              class="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M7 18h13"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Slide-Over Navigation Drawer -->
+    <div
+      id="nav-drawer-backdrop"
+      class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 hidden opacity-0 transition-opacity duration-300"
+    ></div>
+    <aside
+      id="nav-drawer"
+      class="fixed top-0 right-0 h-full w-80 sm:w-96 glass-panel-dark border-l border-cyberCyan/30 z-50 transform translate-x-full transition-transform duration-300 ease-out flex flex-col justify-between p-6"
+    >
+      <div>
+        <div
+          class="flex items-center justify-between pb-6 border-b border-slate-800"
+        >
+          <div>
+            <p
+              class="font-mono text-xs text-cyberCyan uppercase tracking-widest"
+            >
+              Release Blueprint
+            </p>
+            <h2 class="font-display font-bold text-2xl text-white">
+              V3.3 Navigation
+            </h2>
+          </div>
+          <button
+            id="close-nav-btn"
+            aria-label="Close Navigation Drawer"
+            class="p-2 rounded-lg bg-slateMid/50 hover:bg-cyberCrimson/20 hover:text-cyberCrimson text-slate-300 transition-colors"
+          >
+            <svg
+              class="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <nav class="mt-6 space-y-2">
+          <a
+            href="#hero"
+            class="nav-link flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-cyberCyan/10 border border-transparent hover:border-cyberCyan/30 text-slate-200 hover:text-cyberCyan transition-all"
+          >
+            <span class="font-mono text-xs text-cyberCyan">01</span>
+            <span class="font-display font-semibold text-lg tracking-wide"
+              >Hero Launch Stage</span
+            >
+          </a>
+          <a
+            href="#mandate"
+            class="nav-link flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-cyberCrimson/10 border border-transparent hover:border-cyberCrimson/30 text-slate-200 hover:text-cyberCrimson transition-all"
+          >
+            <span class="font-mono text-xs text-cyberCrimson">02</span>
+            <span class="font-display font-semibold text-lg tracking-wide"
+              >Executive Mandate</span
+            >
+          </a>
+          <a
+            href="#architecture"
+            class="nav-link flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-cyberPurple/10 border border-transparent hover:border-cyberPurple/30 text-slate-200 hover:text-cyberPurple transition-all"
+          >
+            <span class="font-mono text-xs text-cyberPurple">03</span>
+            <span class="font-display font-semibold text-lg tracking-wide"
+              >Core Cloud Upgrades</span
+            >
+          </a>
+          <a
+            href="#preview"
+            class="nav-link flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-cyberMint/10 border border-transparent hover:border-cyberMint/30 text-slate-200 hover:text-cyberMint transition-all"
+          >
+            <span class="font-mono text-xs text-cyberMint">04</span>
+            <span class="font-display font-semibold text-lg tracking-wide"
+              >5-Second Hero Preview</span
+            >
+          </a>
+          <a
+            href="#tiers"
+            class="nav-link flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-accentGold/10 border border-transparent hover:border-accentGold/30 text-slate-200 hover:text-accentGold transition-all"
+          >
+            <span class="font-mono text-xs text-accentGold">05</span>
+            <span class="font-display font-semibold text-lg tracking-wide"
+              >12-Tier Season 2 Ladder</span
+            >
+          </a>
+          <a
+            href="#triumph"
+            class="nav-link flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-cyberCyan/10 border border-transparent hover:border-cyberCyan/30 text-slate-200 hover:text-cyberCyan transition-all"
+          >
+            <span class="font-mono text-xs text-cyberCyan">06</span>
+            <span class="font-display font-semibold text-lg tracking-wide"
+              >Triumph Launch Banner</span
+            >
+          </a>
+        </nav>
+      </div>
+
+      <div class="pt-6 border-t border-slate-800 space-y-3">
+        <a
+          href="./index.html"
+          class="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-cyberCyan to-cyberPurple text-canvas font-display font-bold text-base uppercase tracking-wider flex items-center justify-center gap-2 hover:opacity-95 transition-opacity shadow-lg shadow-cyberCyan/25"
+        >
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M11 17l-5-5m0 0l5-5m-5 5h12"
+            />
+          </svg>
+          <span>Back to Live Arena</span>
+        </a>
+        <p class="text-center font-mono text-[11px] text-slate-500">
+          Target Deployment: Nov 15, 2026 • 12:00 UTC
+        </p>
+      </div>
+    </aside>
+
+    <!-- Right-Side Floating LIFO Stack Trigger Button -->
+    <button
+      id="open-lifo-btn"
+      class="fixed right-0 top-1/2 -translate-y-1/2 z-30 glass-panel-dark border-r-0 border-cyberPurple/50 hover:border-cyberPurple px-3 py-5 rounded-l-2xl shadow-2xl shadow-cyberPurple/20 group transition-all hover:pr-4 flex flex-col items-center gap-2"
+    >
+      <span
+        class="w-2.5 h-2.5 rounded-full bg-cyberPurple animate-pulse"
+      ></span>
+      <span
+        class="font-mono text-xs font-bold tracking-widest text-cyberPurple uppercase [writing-mode:vertical-rl] rotate-180"
+      >
+        LIFO STACK
+      </span>
+      <span
+        id="lifo-badge-count"
+        class="px-1.5 py-0.5 text-[10px] font-mono bg-cyberPurple/20 text-cyberPurple rounded border border-cyberPurple/40"
+        >6</span
+      >
+    </button>
+
+    <!-- Interactive LIFO Cloud Migration Audit Stack Drawer -->
+    <div
+      id="lifo-drawer"
+      class="fixed inset-x-0 bottom-0 z-50 transform translate-y-full transition-transform duration-300 ease-out"
+    >
+      <div
+        class="glass-panel-dark border-t-2 border-cyberPurple/60 max-w-7xl mx-auto rounded-t-3xl p-6 shadow-[0_-20px_60px_rgba(0,0,0,0.9)]"
+      >
+        <div
+          class="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800"
+        >
+          <div class="flex items-center gap-3">
+            <div
+              class="px-2.5 py-1 rounded bg-cyberPurple/20 border border-cyberPurple/40 font-mono text-xs text-cyberPurple font-semibold"
+            >
+              LIFO // CLOUD AUDIT TRACE
+            </div>
+            <h3 class="font-display font-bold text-xl text-white">
+              V3.3 Firebase Deployment Stack
+            </h3>
+            <span class="hidden md:inline font-mono text-xs text-slate-400"
+              >(Use mouse wheel to scroll horizontally)</span
+            >
+          </div>
+
+          <div class="flex items-center gap-3">
+            <button
+              id="pop-lifo-btn"
+              class="px-4 py-2 rounded-lg bg-cyberCrimson/20 hover:bg-cyberCrimson/30 border border-cyberCrimson/50 text-cyberCrimson font-mono text-xs font-semibold uppercase tracking-wider transition-all flex items-center gap-2"
+            >
+              <svg
+                class="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 10l7-7m0 0l7 7m-7-7v18"
+                />
+              </svg>
+              Pop Top Audit Entry
+            </button>
+            <button
+              id="reset-lifo-btn"
+              class="px-3 py-2 rounded-lg bg-slateMid/60 hover:bg-slateMid text-slate-300 font-mono text-xs transition-colors"
+            >
+              Restore Stack
+            </button>
+            <button
+              id="close-lifo-btn"
+              aria-label="Close LIFO Drawer"
+              class="p-2 rounded-lg bg-slateMid/50 hover:bg-slate-700 text-slate-300"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Horizontal Mouse-Wheel Scrollable Stack Container -->
+        <div
+          id="lifo-scroll-container"
+          class="mt-4 flex gap-4 overflow-x-auto pb-3 pt-1 select-none"
+        >
+          <!-- Populated dynamically by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main
+      class="relative z-10 pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-24"
+    >
+      <!-- 01. HERO LAUNCH STAGE -->
+      <section id="hero" class="reveal-section pt-6">
+        <div
+          class="glass-panel rounded-3xl p-8 sm:p-12 lg:p-16 border border-cyberCyan/30 relative overflow-hidden"
+        >
+          <div
+            class="absolute top-0 right-0 w-80 h-80 bg-gradient-to-bl from-cyberCyan/15 to-transparent rounded-bl-full pointer-events-none"
+          ></div>
+
+          <div class="flex flex-wrap items-center gap-3 mb-6">
+            <span
+              class="px-3 py-1 rounded-full bg-cyberCyan/15 border border-cyberCyan/40 font-mono text-xs text-cyberCyan uppercase tracking-widest"
+            >
+              01 // RELEASE BLUEPRINT V3.3
+            </span>
+            <span
+              class="px-3 py-1 rounded-full bg-cyberPurple/15 border border-cyberPurple/40 font-mono text-xs text-cyberPurple uppercase tracking-widest"
+            >
+              SEASON 2 INFRASTRUCTURE
+            </span>
+          </div>
+
+          <h1
+            class="font-display font-extrabold text-4xl sm:text-6xl lg:text-7xl tracking-tight text-white leading-[1.08] max-w-4xl"
+          >
+            Prime-Factor.app V3.3: <br />
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-cyberCyan via-cyberMint to-cyberPurple"
+            >
+              The Cloud Genesis
+            </span>
+          </h1>
+
+          <p
+            class="mt-6 text-lg sm:text-xl text-slate-300 max-w-3xl leading-relaxed"
+          >
+            Transitioning the competitive integer factorization arena from
+            isolated, single-browser storage to a globally synchronized
+            <strong class="text-white font-semibold"
+              >Firebase Cloud Firestore &amp; Google OAuth 2.0</strong
+            >
+            architecture. Every rating point, medal, and match ledger is now
+            cryptographically bound to your verified identity across all
+            devices.
+          </p>
+
+          <!-- Live 3-Day Launch Countdown Ticker -->
+          <div
+            class="mt-10 p-6 sm:p-8 rounded-2xl glass-panel-dark border border-cyberCyan/40 max-w-3xl"
+          >
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+              <div class="flex items-center gap-2">
+                <span
+                  class="w-2.5 h-2.5 rounded-full bg-cyberCyan animate-ping"
+                ></span>
+                <span
+                  class="font-mono text-xs uppercase tracking-widest text-cyberCyan font-semibold"
+                >
+                  Global Cloud Cutover Countdown
+                </span>
+              </div>
+              <span class="font-mono text-xs text-slate-400"
+                >Nov 15, 2026 • 12:00:00 UTC</span
+              >
+            </div>
+
+            <div class="grid grid-cols-4 gap-3 sm:gap-5 text-center">
+              <div
+                class="p-3 sm:p-4 rounded-xl bg-slateDark/90 border border-slate-800 neon-glow-cyan"
+              >
+                <div
+                  id="cd-days"
+                  class="font-display font-extrabold text-3xl sm:text-5xl text-white"
+                >
+                  03
+                </div>
+                <div
+                  class="font-mono text-[11px] uppercase tracking-widest text-cyberCyan mt-1"
+                >
+                  Days
+                </div>
+              </div>
+              <div
+                class="p-3 sm:p-4 rounded-xl bg-slateDark/90 border border-slate-800 neon-glow-cyan"
+              >
+                <div
+                  id="cd-hours"
+                  class="font-display font-extrabold text-3xl sm:text-5xl text-white"
+                >
+                  00
+                </div>
+                <div
+                  class="font-mono text-[11px] uppercase tracking-widest text-cyberCyan mt-1"
+                >
+                  Hours
+                </div>
+              </div>
+              <div
+                class="p-3 sm:p-4 rounded-xl bg-slateDark/90 border border-slate-800 neon-glow-purple"
+              >
+                <div
+                  id="cd-minutes"
+                  class="font-display font-extrabold text-3xl sm:text-5xl text-white"
+                >
+                  00
+                </div>
+                <div
+                  class="font-mono text-[11px] uppercase tracking-widest text-cyberPurple mt-1"
+                >
+                  Minutes
+                </div>
+              </div>
+              <div
+                class="p-3 sm:p-4 rounded-xl bg-slateDark/90 border border-slate-800 neon-glow-mint"
+              >
+                <div
+                  id="cd-seconds"
+                  class="font-display font-extrabold text-3xl sm:text-5xl text-cyberMint"
+                >
+                  00
+                </div>
+                <div
+                  class="font-mono text-[11px] uppercase tracking-widest text-cyberMint mt-1"
+                >
+                  Seconds
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero CTA Row -->
+          <div class="mt-8 flex flex-wrap items-center gap-4">
+            <a
+              href="./index.html"
+              class="px-6 py-3.5 rounded-xl bg-cyberCyan text-canvas font-display font-bold text-base uppercase tracking-wider hover:bg-cyan-300 transition-all shadow-lg shadow-cyberCyan/25 flex items-center gap-2"
+            >
+              <span>Enter Current Live Arena</span>
+              <svg
+                class="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                />
+              </svg>
+            </a>
+            <a
+              href="#mandate"
+              class="px-6 py-3.5 rounded-xl glass-panel hover:border-cyberCrimson/50 text-slate-200 hover:text-white font-display font-bold text-base uppercase tracking-wider transition-all"
+            >
+              Read Season 2 Reset Mandate
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 02. EXECUTIVE MANDATE & CLEAN SEASON RESET NOTICE -->
+      <section id="mandate" class="reveal-section">
+        <div class="flex items-center gap-3 mb-4">
+          <span
+            class="font-mono text-xs text-cyberCrimson uppercase tracking-widest"
+            >02 // EXECUTIVE INTEGRITY MANDATE</span
+          >
+          <div
+            class="h-[1px] flex-1 bg-gradient-to-r from-cyberCrimson/50 to-transparent"
+          ></div>
+        </div>
+
+        <div
+          class="glass-panel rounded-3xl p-8 sm:p-10 border-2 border-cyberCrimson/40 neon-glow-crimson relative overflow-hidden"
+        >
+          <div class="grid lg:grid-cols-12 gap-8 items-center">
+            <div class="lg:col-span-8 space-y-4">
+              <div
+                class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-cyberCrimson/15 border border-cyberCrimson/40 text-cyberCrimson font-mono text-xs font-semibold uppercase tracking-wider"
+              >
+                <svg
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
+                  />
+                </svg>
+                <span>Mandatory Protocol Notice: Zero Legacy Migration</span>
+              </div>
+
+              <h2
+                class="font-display font-bold text-3xl sm:text-4xl text-white"
+              >
+                Complete Retirement of LocalStorage &amp; Clean Season 2 Reset
+              </h2>
+
+              <p class="text-slate-300 leading-relaxed text-base sm:text-lg">
+                In V2.x, competitor ratings and match logs were stored in
+                browser
+                <code
+                  class="px-1.5 py-0.5 rounded bg-slateDark text-cyberCrimson font-mono text-sm"
+                  >localStorage</code
+                >. Because client-side storage can be manually edited via
+                browser DevTools, importing legacy browser state into the global
+                cloud leaderboard would compromise competitive integrity.
+              </p>
+
+              <p class="text-slate-300 leading-relaxed text-base sm:text-lg">
+                Effective with V3.3 deployment,
+                <strong class="text-white"
+                  >LocalStorage persistence is permanently retired</strong
+                >. There is no legacy data import or migration bridge. Every
+                competitor begins Season 2 on an identical, verifiable baseline
+                upon authenticating with Google.
+              </p>
+            </div>
+
+            <div class="lg:col-span-4">
+              <div
+                class="p-6 rounded-2xl glass-panel-dark border border-accentGold/40 neon-glow-gold text-center space-y-3"
+              >
+                <span
+                  class="font-mono text-xs text-accentGold uppercase tracking-widest"
+                  >Universal Season 2 Baseline</span
+                >
+                <div class="font-display font-extrabold text-5xl text-white">
+                  500 <span class="text-2xl text-accentGold">ELO</span>
+                </div>
+                <div
+                  class="inline-block px-3 py-1 rounded-full bg-accentGold/15 border border-accentGold/40 font-mono text-xs text-accentGold font-semibold"
+                >
+                  Tier 11: Composite Apprentice
+                </div>
+                <p
+                  class="text-xs text-slate-400 pt-2 border-t border-slate-800"
+                >
+                  100% Fair Play • Zero Client Tampering • Cryptographic UID
+                  Ledger
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03. V3.3 CORE ARCHITECTURAL UPGRADES (4 NEON 3D CARDS) -->
+      <section id="architecture" class="reveal-section">
+        <div class="flex items-center gap-3 mb-3">
+          <span
+            class="font-mono text-xs text-cyberPurple uppercase tracking-widest"
+            >03 // CLOUD INFRASTRUCTURE</span
+          >
+          <div
+            class="h-[1px] flex-1 bg-gradient-to-r from-cyberPurple/50 to-transparent"
+          ></div>
+        </div>
+        <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mb-8">
+          V3.3 Core Architectural Upgrades
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <!-- Card 1: Google OAuth 2.0 Identity -->
+          <div
+            class="card-3d glass-panel rounded-2xl p-7 border neon-glow-cyan flex flex-col justify-between"
+          >
+            <div>
+              <div class="flex items-center justify-between mb-5">
+                <div
+                  class="w-12 h-12 rounded-xl bg-cyberCyan/15 border border-cyberCyan/40 flex items-center justify-center text-cyberCyan"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"
+                    />
+                  </svg>
+                </div>
+                <span
+                  class="font-mono text-xs text-cyberCyan px-2.5 py-1 rounded bg-cyberCyan/10 border border-cyberCyan/30"
+                  >AUTH // OAUTH 2.0</span
+                >
+              </div>
+              <h3 class="font-display font-bold text-2xl text-white mb-2">
+                Google OAuth 2.0 Identity
+              </h3>
+              <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                One-click federated authentication integrated directly into the
+                top arena navigation bar. Seamlessly switch between desktop
+                workstations, tablets, and mobile browsers with instant identity
+                resolution.
+              </p>
+            </div>
+            <div
+              class="mt-6 pt-4 border-t border-slate-800/80 font-mono text-xs text-cyberCyan"
+            >
+              Provider: firebase.auth.GoogleAuthProvider
+            </div>
+          </div>
+
+          <!-- Card 2: Cloud Firestore Sync -->
+          <div
+            class="card-3d glass-panel rounded-2xl p-7 border neon-glow-purple flex flex-col justify-between"
+          >
+            <div>
+              <div class="flex items-center justify-between mb-5">
+                <div
+                  class="w-12 h-12 rounded-xl bg-cyberPurple/15 border border-cyberPurple/40 flex items-center justify-center text-cyberPurple"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"
+                    />
+                  </svg>
+                </div>
+                <span
+                  class="font-mono text-xs text-cyberPurple px-2.5 py-1 rounded bg-cyberPurple/10 border border-cyberPurple/30"
+                  >DB // FIRESTORE SYNC</span
+                >
+              </div>
+              <h3 class="font-display font-bold text-2xl text-white mb-2">
+                Cloud Firestore Sync
+              </h3>
+              <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                Sub-second real-time persistence for ELO ratings, win/loss
+                streaks, Olympiad medals, solve-time telemetry, and full match
+                histories. Browser cache clears never erase your competitive
+                standing again.
+              </p>
+            </div>
+            <div
+              class="mt-6 pt-4 border-t border-slate-800/80 font-mono text-xs text-cyberPurple"
+            >
+              Collection: /competitors/{uid}/matchLedger
+            </div>
+          </div>
+
+          <!-- Card 3: Zero-Guest Strict Ledger -->
+          <div
+            class="card-3d glass-panel rounded-2xl p-7 border neon-glow-gold flex flex-col justify-between"
+          >
+            <div>
+              <div class="flex items-center justify-between mb-5">
+                <div
+                  class="w-12 h-12 rounded-xl bg-accentGold/15 border border-accentGold/40 flex items-center justify-center text-accentGold"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+                    />
+                  </svg>
+                </div>
+                <span
+                  class="font-mono text-xs text-accentGold px-2.5 py-1 rounded bg-accentGold/10 border border-accentGold/30"
+                  >LADDER // VERIFIED ONLY</span
+                >
+              </div>
+              <h3 class="font-display font-bold text-2xl text-white mb-2">
+                Zero-Guest Strict Ledger
+              </h3>
+              <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                Unauthenticated visitors retain full access to unranked Sandbox
+                Practice drills, while ranked ELO progression and global ladder
+                placement are strictly reserved for cloud-authenticated Google
+                accounts.
+              </p>
+            </div>
+            <div
+              class="mt-6 pt-4 border-t border-slate-800/80 font-mono text-xs text-accentGold"
+            >
+              Mode Split: Guest Sandbox vs. Authenticated Ranked
+            </div>
+          </div>
+
+          <!-- Card 4: Server-Enforced Firestore Rules -->
+          <div
+            class="card-3d glass-panel rounded-2xl p-7 border neon-glow-mint flex flex-col justify-between"
+          >
+            <div>
+              <div class="flex items-center justify-between mb-5">
+                <div
+                  class="w-12 h-12 rounded-xl bg-cyberMint/15 border border-cyberMint/40 flex items-center justify-center text-cyberMint"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                    />
+                  </svg>
+                </div>
+                <span
+                  class="font-mono text-xs text-cyberMint px-2.5 py-1 rounded bg-cyberMint/10 border border-cyberMint/30"
+                  >SEC // UID ISOLATION</span
+                >
+              </div>
+              <h3 class="font-display font-bold text-2xl text-white mb-2">
+                Server-Enforced Firestore Rules
+              </h3>
+              <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                Cryptographic UID-locked database security rules (<code
+                  class="text-cyberMint font-mono text-xs"
+                  >request.auth.uid == userId</code
+                >) and schema validation guards replace vulnerable local storage
+                writes.
+              </p>
+            </div>
+            <div
+              class="mt-6 pt-4 border-t border-slate-800/80 font-mono text-xs text-cyberMint"
+            >
+              Rule: allow write: if request.auth.uid == userId;
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 04. INTERACTIVE 5-SECOND HERO EXPERIENCE PREVIEW -->
+      <section id="preview" class="reveal-section">
+        <div class="flex items-center gap-3 mb-3">
+          <span
+            class="font-mono text-xs text-cyberMint uppercase tracking-widest"
+            >04 // ARENA TELEMETRY PREVIEW</span
+          >
+          <div
+            class="h-[1px] flex-1 bg-gradient-to-r from-cyberMint/50 to-transparent"
+          ></div>
+        </div>
+        <div class="flex flex-wrap items-end justify-between gap-4 mb-8">
+          <div>
+            <h2 class="font-display font-bold text-3xl sm:text-4xl text-white">
+              Interactive 5-Second Hero Experience Preview
+            </h2>
+            <p class="text-slate-400 mt-1">
+              Simulate the V3.3 cloud-synced factorization handshake coming to
+              <code class="text-cyberCyan font-mono">index.html</code>.
+            </p>
+          </div>
+          <button
+            id="run-preview-btn"
+            class="px-5 py-2.5 rounded-xl bg-cyberMint/20 hover:bg-cyberMint/30 border border-cyberMint/50 text-cyberMint font-mono text-xs font-semibold uppercase tracking-wider transition-all flex items-center gap-2"
+          >
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+            <span>Trigger 5-Sec Cloud Match Sim</span>
+          </button>
+        </div>
+
+        <div
+          class="glass-panel rounded-3xl p-6 sm:p-8 border border-cyberMint/30"
+        >
+          <!-- Simulated V3.3 Top Bar -->
+          <div
+            class="flex flex-wrap items-center justify-between gap-4 pb-5 border-b border-slate-800"
+          >
+            <div class="flex items-center gap-3">
+              <span
+                class="px-2.5 py-1 rounded bg-cyberMint/15 text-cyberMint font-mono text-xs border border-cyberMint/30"
+                >LIVE PREVIEW // index.html</span
+              >
+              <span
+                id="sim-status-text"
+                class="font-mono text-xs text-slate-400"
+                >Ready — Click "Trigger 5-Sec Cloud Match Sim"</span
+              >
+            </div>
+            <div class="flex items-center gap-3">
+              <div
+                class="px-3 py-1.5 rounded-lg bg-slateDark border border-slate-700 font-mono text-xs text-slate-300"
+              >
+                UID: <span class="text-cyberCyan">g_auth_94f8a...</span>
+              </div>
+              <div
+                class="px-3 py-1.5 rounded-lg bg-slateDark border border-accentGold/40 font-mono text-xs text-accentGold"
+              >
+                ELO: <span id="sim-elo-val" class="font-bold">500</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Simulated Arena Stage -->
+          <div class="grid lg:grid-cols-12 gap-6 pt-6 items-center">
+            <div
+              class="lg:col-span-7 p-6 rounded-2xl bg-slateDark/90 border border-slate-800 text-center space-y-4"
+            >
+              <div
+                class="flex items-center justify-between text-xs font-mono text-slate-400"
+              >
+                <span>COMPOSITE TARGET</span>
+                <span id="sim-timer" class="text-cyberCyan font-bold"
+                  >5.00s</span
+                >
+              </div>
+              <div
+                id="sim-target-number"
+                class="font-display font-extrabold text-5xl sm:text-6xl text-white tracking-wider"
+              >
+                2,027 × 13 = <span class="text-cyberCyan">26,351</span>
+              </div>
+              <div
+                id="sim-factor-pills"
+                class="flex items-center justify-center gap-2 min-h-[36px]"
+              >
+                <span
+                  class="px-3 py-1 rounded-lg bg-slateMid/60 border border-slate-700 font-mono text-sm text-slate-400"
+                >
+                  Awaiting prime input...
+                </span>
+              </div>
+            </div>
+
+            <div class="lg:col-span-5 space-y-3">
+              <div
+                class="p-4 rounded-xl bg-slateDark/80 border border-slate-800 font-mono text-xs space-y-2"
+              >
+                <div class="text-slate-400 uppercase tracking-wider">
+                  Firestore Write Pipeline
+                </div>
+                <div id="sim-log-1" class="text-slate-500">
+                  1. [AUTH] Google OAuth token verified
+                </div>
+                <div id="sim-log-2" class="text-slate-500">
+                  2. [SOLVE] Prime factors validated: 13 × 2027
+                </div>
+                <div id="sim-log-3" class="text-slate-500">
+                  3. [SYNC] Firestore commit: +18 ELO (500 → 518)
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 05. THE 12-TIER COMPETITIVE HIERARCHY & SEASON 2 RESET RULES -->
+      <section id="tiers" class="reveal-section">
+        <div class="flex items-center gap-3 mb-3">
+          <span
+            class="font-mono text-xs text-accentGold uppercase tracking-widest"
+            >05 // COMPETITIVE HIERARCHY</span
+          >
+          <div
+            class="h-[1px] flex-1 bg-gradient-to-r from-accentGold/50 to-transparent"
+          ></div>
+        </div>
+        <div class="flex flex-wrap items-end justify-between gap-4 mb-8">
+          <div>
+            <h2 class="font-display font-bold text-3xl sm:text-4xl text-white">
+              The 12-Tier Competitive Hierarchy &amp; Season 2 Reset Rules
+            </h2>
+            <p class="text-slate-400 mt-1">
+              All Season 2 accounts initialize at
+              <strong class="text-accentGold"
+                >500 ELO (Tier 11: Composite Apprentice)</strong
+              >
+              upon first Google sign-in.
+            </p>
+          </div>
+          <span
+            class="px-3 py-1.5 rounded-lg bg-accentGold/15 border border-accentGold/40 font-mono text-xs text-accentGold"
+          >
+            SEASON 2 ENTRY: TIER 11 (500 ELO)
+          </span>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          <!-- Tier 1 -->
+          <div
+            class="glass-panel rounded-xl p-5 border border-purple-500/40 hover:border-purple-400 transition-all space-y-2"
+          >
+            <div
+              class="flex items-center justify-between font-mono text-xs text-purple-400"
+            >
+              <span>TIER 1</span>
+              <span>3000+ ELO</span>
+            </div>
+            <div class="font-display font-bold text-xl text-white">
+              Prime Singularity
+            </div>
+            <div
+              class="inline-block px-2 py-0.5 rounded bg-purple-500/15 text-purple-300 font-mono text-[10px]"
+            >
+              Nebula Pink · Cyber Glow
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed font-mono">
+              Gatekeeper Constraint: Tiers 1–6 locked from Rated play. Strict
+              95%+ Accuracy required.
+            </p>
+            <p
+              class="text-xs text-slate-400 italic pt-1 border-t border-slate-800"
+            >
+              "Absolute apex. Only Unrated practice allowed below this ceiling
+              to prevent point‑farming."
+            </p>
+          </div>
+
+          <!-- Tier 2 -->
+          <div
+            class="glass-panel rounded-xl p-5 border border-purple-500/30 hover:border-purple-400 transition-all space-y-2"
+          >
+            <div
+              class="flex items-center justify-between font-mono text-xs text-purple-300"
+            >
+              <span>TIER 2</span>
+              <span>2700–2999 ELO</span>
+            </div>
+            <div class="font-display font-bold text-xl text-white">
+              Riemann Transcendentalist
+            </div>
+            <div
+              class="inline-block px-2 py-0.5 rounded bg-purple-500/15 text-purple-300 font-mono text-[10px]"
+            >
+              Crimson Scarlet · Pulse Glow
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed font-mono">
+              Constraint: Challenge Tiers 1–5 locked from Rated play. Matches
+              forced into Unrated simulation.
+            </p>
+            <p
+              class="text-xs text-slate-400 italic pt-1 border-t border-slate-800"
+            >
+              "Transcendental mastery. Rated play restricted to higher strata
+              only."
+            </p>
+          </div>
+
+          <!-- Tier 3 -->
+          <div
+            class="glass-panel rounded-xl p-5 border border-cyan-500/30 hover:border-cyan-400 transition-all space-y-2"
+          >
+            <div
+              class="flex items-center justify-between font-mono text-xs text-cyberCyan"
+            >
+              <span>TIER 3</span>
+              <span>2400–2699 ELO</span>
+            </div>
+            <div class="font-display font-bold text-xl text-white">
+              Canonical Analyst
+            </div>
+            <div
+              class="inline-block px-2 py-0.5 rounded bg-cyberCyan/15 text-cyberCyan font-mono text-[10px]"
+            >
+              Electric Cyan
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed font-mono">
+              Condition: Operates at high‑tier analytical precision,
+              consistently solving advanced factorization problems with minimal
+              reliance on lifelines.
+            </p>
+            <p
+              class="text-xs text-slate-400 italic pt-1 border-t border-slate-800"
+            >
+              "Canonical insight anchors this echelon. Competitors here
+              demonstrate mastery of structural decomposition, sustaining
+              accuracy under accelerated time constraints."
+            </p>
+          </div>
+
+          <!-- Tier 4 -->
+          <div
+            class="glass-panel rounded-xl p-5 border border-cyan-500/30 hover:border-cyan-400 transition-all space-y-2"
+          >
+            <div
+              class="flex items-center justify-between font-mono text-xs text-cyberCyan"
+            >
+              <span>TIER 4</span>
+              <span>2200–2399 ELO</span>
+            </div>
+            <div class="font-display font-bold text-xl text-white">
+              Gaussian Cryptographer
+            </div>
+            <div
+              class="inline-block px-2 py-0.5 rounded bg-cyberCyan/15 text-cyberCyan font-mono text-[10px]"
+            >
+              Vibrant Violet
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed font-mono">
+              Condition: Operates within advanced encryption‑like problem sets,
+              requiring layered reasoning and resilience against trick inputs.
+            </p>
+            <p
+              class="text-xs text-slate-400 italic pt-1 border-t border-slate-800"
+            >
+              "Cryptographic resilience defines this tier. Competitors here
+              thrive on decoding complexity and safeguarding precision under
+              pressure."
+            </p>
+          </div>
+
+          <!-- Tier 5 -->
+          <div
+            class="glass-panel rounded-xl p-5 border border-emerald-500/30 hover:border-emerald-400 transition-all space-y-2"
+          >
+            <div
+              class="flex items-center justify-between font-mono text-xs text-cyberMint"
+            >
+              <span>TIER 5</span>
+              <span>2000–2199 ELO</span>
+            </div>
+            <div class="font-display font-bold text-xl text-white">
+              Eulerian Sentinel
+            </div>
+            <div
+              class="inline-block px-2 py-0.5 rounded bg-cyberMint/15 text-cyberMint font-mono text-[10px]"
+            >
+              Laser Amber
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed font-mono">
+              Condition: Maintains steady accuracy across mid‑high ranges,
+              balancing speed with structural awareness of divisibility and
+              modular arithmetic.
+            </p>
+            <p
+              class="text-xs text-slate-400 italic pt-1 border-t border-slate-800"
+            >
+              "Sentinel guardianship with Eulerian precision. This tier reflects
+              disciplined calculation and a watchful eye over every numeric
+              pathway."
+            </p>
+          </div>
+
+          <!-- Tier 6 -->
+          <div
+            class="glass-panel rounded-xl p-5 border border-emerald-500/30 hover:border-emerald-400 transition-all space-y-2"
+          >
+            <div
+              class="flex items-center justify-between font-mono text-xs text-cyberMint"
+            >
+              <span>TIER 6</span>
+              <span>1800–1999 ELO</span>
+            </div>
+            <div class="font-display font-bold text-xl text-white">
+              Logarithmic Vector
+            </div>
+            <div
+              class="inline-block px-2 py-0.5 rounded bg-cyberMint/15 text-cyberMint font-mono text-[10px]"
+            >
+              Cobalt Blue
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed font-mono">
+              Core Engine Trigger: Performance Decay &amp; Historical Ledger
+              Audit activate here. Accuracy drops or speed slumps trigger
+              Expectation Deficit Penalties.
+            </p>
+            <p
+              class="text-xs text-slate-400 italic pt-1 border-t border-slate-800"
+            >
+              "Competitors must sustain rhythm. The logarithmic curve enforces
+              balance, penalizing inconsistency while rewarding steady cadence."
+            </p>
+          </div>
+
+          <!-- Tier 7 -->
+          <div
+            class="glass-panel rounded-xl p-5 border border-slate-700 hover:border-slate-500 transition-all space-y-2"
+          >
+            <div
+              class="flex items-center justify-between font-mono text-xs text-slate-300"
+            >
+              <span>TIER 7</span>
+              <span>1600–1799 ELO</span>
+            </div>
+            <div class="font-display font-bold text-xl text-white">
+              Prime Strategist
+            </div>
+            <div
+              class="inline-block px-2 py-0.5 rounded bg-slate-700/50 text-slate-300 font-mono text-[10px]"
+            >
+              Deep Jade
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed font-mono">
+              Condition: Relies on tactical foresight, lifeline management, and
+              adaptive pacing to sustain competitive viability.
+            </p>
+            <p
+              class="text-xs text-slate-400 italic pt-1 border-t border-slate-800"
+            >
+              "Strategic depth anchors this tier. Players here excel at resource
+              management and calculated risk‑taking."
+            </p>
+          </div>
+
+          <!-- Tier 8 -->
+          <div
+            class="glass-panel rounded-xl p-5 border border-slate-700 hover:border-slate-500 transition-all space-y-2"
+          >
+            <div
+              class="flex items-center justify-between font-mono text-xs text-slate-300"
+            >
+              <span>TIER 8</span>
+              <span>1400–1599 ELO</span>
+            </div>
+            <div class="font-display font-bold text-xl text-white">
+              Modular Operator
+            </div>
+            <div
+              class="inline-block px-2 py-0.5 rounded bg-slate-700/50 text-slate-300 font-mono text-[10px]"
+            >
+              Mint Green
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed font-mono">
+              Condition: Demonstrates modular adaptability, solving standard
+              ranges with growing fluency and confidence.
+            </p>
+            <p
+              class="text-xs text-slate-400 italic pt-1 border-t border-slate-800"
+            >
+              "Operator tier with modular adaptability. Competitors here begin
+              to master flexible approaches and structured number fields."
+            </p>
+          </div>
+
+          <!-- Tier 9 -->
+          <div
+            class="glass-panel rounded-xl p-5 border border-slate-700 hover:border-slate-500 transition-all space-y-2"
+          >
+            <div
+              class="flex items-center justify-between font-mono text-xs text-slate-400"
+            >
+              <span>TIER 9</span>
+              <span>1200–1399 ELO</span>
+            </div>
+            <div class="font-display font-bold text-xl text-white">
+              Radix Scholar
+            </div>
+            <div
+              class="inline-block px-2 py-0.5 rounded bg-slate-700/50 text-slate-400 font-mono text-[10px]"
+            >
+              Muted Platinum
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed font-mono">
+              Condition: Builds foundational mastery of radix systems,
+              divisibility rules, and prime factor heuristics.
+            </p>
+            <p
+              class="text-xs text-slate-400 italic pt-1 border-t border-slate-800"
+            >
+              "Scholarship and radix mastery define this tier. Competitors here
+              are consolidating their theoretical base while sharpening applied
+              skills."
+            </p>
+          </div>
+
+          <!-- Tier 10 -->
+          <div
+            class="glass-panel rounded-xl p-5 border border-slate-700 hover:border-slate-500 transition-all space-y-2"
+          >
+            <div
+              class="flex items-center justify-between font-mono text-xs text-slate-400"
+            >
+              <span>TIER 10</span>
+              <span>900–1199 ELO</span>
+            </div>
+            <div class="font-display font-bold text-xl text-white">
+              Sieve Calibrator
+            </div>
+            <div
+              class="inline-block px-2 py-0.5 rounded bg-slate-700/50 text-slate-400 font-mono text-[10px]"
+            >
+              Polished Bronze
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed font-mono">
+              Condition: Learners refine their sieve‑based techniques,
+              calibrating divisibility checks and prime detection accuracy. This
+              tier emphasizes consistency over speed.
+            </p>
+            <p
+              class="text-xs text-slate-400 italic pt-1 border-t border-slate-800"
+            >
+              "Calibration tier. Bronze precision anchors sieve‑based
+              progression. Competitors here are stabilizing their fundamentals,
+              preparing to ascend into higher analytical ranges."
+            </p>
+          </div>
+
+          <!-- Tier 11: HIGHLIGHTED UNIVERSAL STARTING POINT -->
+          <div
+            class="glass-panel rounded-xl p-5 border-2 border-accentGold neon-glow-gold relative overflow-hidden space-y-2"
+          >
+            <div
+              class="flex items-center justify-between font-mono text-xs text-accentGold font-bold"
+            >
+              <span>TIER 11 ★ START</span>
+              <span>500–899 ELO</span>
+            </div>
+            <div class="font-display font-bold text-xl text-white">
+              Composite Apprentice
+            </div>
+            <div
+              class="inline-block px-2 py-0.5 rounded bg-accentGold/20 text-accentGold font-mono text-[10px]"
+            >
+              Slate Gray
+            </div>
+            <p class="text-xs text-amber-200/90 leading-relaxed font-mono">
+              Onboarding Execution: Initial scale floor. Every new user session
+              begins at 500 ELO.
+            </p>
+            <p
+              class="text-xs text-amber-200/80 italic pt-1 border-t border-slate-800"
+            >
+              "Apprentice tier. The official entry point for all new
+              competitors."
+            </p>
+          </div>
+
+          <!-- Tier 12 -->
+          <div
+            class="glass-panel rounded-xl p-5 border border-slate-800 hover:border-slate-600 transition-all space-y-2"
+          >
+            <div
+              class="flex items-center justify-between font-mono text-xs text-slate-500"
+            >
+              <span>TIER 12</span>
+              <span>0–499 ELO</span>
+            </div>
+            <div class="font-display font-bold text-xl text-slate-300">
+              Foundry Initiate
+            </div>
+            <div
+              class="inline-block px-2 py-0.5 rounded bg-slate-800 text-slate-400 font-mono text-[10px]"
+            >
+              Chalk White
+            </div>
+            <p class="text-xs text-slate-400 leading-relaxed font-mono">
+              Core Engine Trigger: Absolute technical bottom. Buffer for losing
+              streaks or anti‑cheat liquidations.
+            </p>
+            <p
+              class="text-xs text-slate-500 italic pt-1 border-t border-slate-800"
+            >
+              "Foundry tier. Serves as the stabilizing base when streaks or
+              security triggers collapse ELO."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 06. TRIUMPH STAGE BANNER (v3-triumph-stage) -->
+      <section id="triumph" class="reveal-section">
+        <div
+          class="v3-triumph-stage animate-pulse-border rounded-3xl p-8 sm:p-12 lg:p-14 text-center relative overflow-hidden"
+        >
+          <div
+            class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyberCyan/15 border border-cyberCyan/40 font-mono text-xs text-cyberCyan uppercase tracking-widest mb-6"
+          >
+            <span class="w-2 h-2 rounded-full bg-cyberCyan animate-ping"></span>
+            <span>06 // V3.3 DEPLOYMENT SEQUENCE ACTIVE</span>
+          </div>
+
+          <h2
+            class="font-display font-extrabold text-3xl sm:text-5xl lg:text-6xl text-white tracking-tight max-w-4xl mx-auto"
+          >
+            One Global Cloud. Zero Tampering. <br />
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-cyberCyan via-white to-cyberPurple"
+            >
+              Season 2 Begins at 500 ELO.
+            </span>
+          </h2>
+
+          <p
+            class="mt-5 text-slate-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed"
+          >
+            The 3-day cutover window to Firebase Cloud Firestore &amp; Google
+            OAuth 2.0 is officially underway. Sharpen your prime decomposition
+            speed in the live arena before the Season 2 global leaderboard locks
+            in.
+          </p>
+
+          <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
+            <a
+              href="https://rayaantasnim.github.io/Prime-Factorization-Web/index.html"
+              class="px-8 py-4 rounded-xl bg-gradient-to-r from-cyberCyan to-cyberPurple text-canvas font-display font-bold text-lg uppercase tracking-wider hover:opacity-95 transition-all shadow-xl shadow-cyberCyan/30"
+            >
+              Launch Prime-Factor Arena
+            </a>
+            <button
+              id="triumph-open-lifo"
+              class="px-6 py-4 rounded-xl glass-panel border border-cyberPurple/50 hover:border-cyberPurple text-white font-display font-bold text-lg uppercase tracking-wider transition-all"
+            >
+              Inspect LIFO Cloud Trace
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="relative z-10 border-t border-slate-800/80 py-8 px-4 text-center font-mono text-xs text-slate-500"
+    >
+      <p>
+        Prime-Factor.APP // V3.3 GLOBAL CLOUD &amp; FIREBASE PROTOCOL BLUEPRINT
+      </p>
+      <p class="mt-1">
+        Zero LocalStorage • Cryptographic Firestore UID Ledger • Season 2 Clean
+        Reset
+      </p>
+    </footer>
+
+    <!-- EMBEDDED INTERACTIVE JAVASCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
